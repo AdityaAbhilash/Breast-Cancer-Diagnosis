@@ -154,7 +154,8 @@ train accuracy : 99.12087912087912 %
 
 test accuracy : 96.49122807017544 %
 
-We now have w and b as final parameters and we can use the "predict" function  if we want to know if the cancer is malignant or benign (If we have all the features values of a new  patient).
+We now have w and b as final paremeters and we have to pass the test case in the function "zscore_normalize(X)" and then we can use the "predict" function  if we want to know if the cancer is malignant or benign (If we have all the features values of a new  patient).
+
 
 #### Traing the whole model and ploting the cost vs iterations:
 
@@ -165,4 +166,13 @@ plot_(J_history_2,index_2,l)
 ```
 train accuracy : 98.94551845342707 %
 
-We now have w_2 and b_2 as final paremeters and we can use the "predict" function  if we want to know if the cancer is malignant or benign (If we have all the features values of a new  patient).
+We now have w_2 and b_2 as final paremeters and we have to pass the test case in the function "zscore_normalize(X)" and then we can use the "predict" function  if we want to know if the cancer is malignant or benign (If we have all the features values of a new  patient).
+
+[1---> malignant 0----> benign]
+
+
+
+
+
+
+
